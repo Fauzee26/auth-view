@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnLogin: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        btnLogin.layer.borderWidth = 1
+        btnLogin.layer.borderColor = UIColor.black.cgColor
     }
 
 
