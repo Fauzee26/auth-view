@@ -13,6 +13,8 @@
 		591D071F253B5AD60008098A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D071D253B5AD60008098A /* Main.storyboard */; };
 		591D0721253B5ADA0008098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591D0720253B5ADA0008098A /* Assets.xcassets */; };
 		591D0724253B5ADA0008098A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D0722253B5ADA0008098A /* LaunchScreen.storyboard */; };
+		EDB27E39253B61F60082BFE0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB27E38253B61F60082BFE0 /* LoginViewController.swift */; };
+		EDB27E3C253B63190082BFE0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB27E3B253B63190082BFE0 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		591D0720253B5ADA0008098A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591D0723253B5ADA0008098A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591D0725253B5ADA0008098A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB27E38253B61F60082BFE0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EDB27E3B253B63190082BFE0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				591D0720253B5ADA0008098A /* Assets.xcassets */,
 				591D0722253B5ADA0008098A /* LaunchScreen.storyboard */,
 				591D0725253B5ADA0008098A /* Info.plist */,
+				EDB27E38253B61F60082BFE0 /* LoginViewController.swift */,
+				EDB27E3B253B63190082BFE0 /* SignUpViewController.swift */,
 			);
 			path = "auth-view";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB27E39253B61F60082BFE0 /* LoginViewController.swift in Sources */,
 				591D071C253B5AD60008098A /* ViewController.swift in Sources */,
 				591D0718253B5AD60008098A /* AppDelegate.swift in Sources */,
 				591D071A253B5AD60008098A /* SceneDelegate.swift in Sources */,
+				EDB27E3C253B63190082BFE0 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
