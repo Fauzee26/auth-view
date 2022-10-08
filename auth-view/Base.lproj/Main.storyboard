@@ -349,6 +349,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y8M-II-2xi"/>
+                    <connections>
+                        <outlet property="scrollView" destination="NOx-wA-8FY" id="be9-hk-eXc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ic-1L-27y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
